@@ -26,6 +26,7 @@ button {
 
 .gallery {
   display: flex;
+  justify-content: center;
   gap: 20px;
   padding: 20px;
   margin: 0 auto;
@@ -34,8 +35,8 @@ button {
 .gallery__item {
    list-style: none;
    display: block;
-   height: 170px;
-   min-width: 250px;
+   height: 300px;
+   width: 400px;
 }
 
 .gallery__image {
